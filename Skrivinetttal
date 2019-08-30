@@ -1,0 +1,14 @@
+using System;
+
+class MainClass {
+  public static void Main (string[] args) {
+    Console.Write ("skriv ett tal");
+    int tal = int.Parse(Console.Readline());
+    if (tal = 10 )
+      Console.Write("talet är större än 10");
+    else if (tal < 10 )  
+    {
+      Console.Write("Talet är större än tio!");
+    }
+  }
+} 
